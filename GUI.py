@@ -30,8 +30,10 @@ root.protocol("WM_DELETE_WINDOW", on_closing)
 
 
 def command_window():
-    webbrowser.open('https://telegra.ph/Komandy-Golosovogo-assistenta-Computer-02-13')
+    webbrowser.open('https://telegra.ph/Komandy-Golosovogo-assistenta-Computer-02-14')
 
+def open_github():
+    webbrowser.open('https://github.com/Darvin18/Computer-voice_assistent')
 
 
 button_settings = tkinter.Button(root, image=settings_image, bg='#2b3136', activebackground='#2b3136', bd=0)
@@ -75,7 +77,8 @@ commands_settings2.place(relx=0.48, rely=0.76)
 
 #BOTTOM
 img_github = tkinter.PhotoImage(file='GUI/Github.png')
-github_button = tkinter.Button(root, image=img_github, height=30, bg='#2b3136', activebackground='#2b3136', bd=0)
+github_button = tkinter.Button(root, image=img_github, height=30, bg='#2b3136', activebackground='#2b3136', bd=0,
+                               command=open_github)
 github_button.pack()
 github_button.place(relx=0.3, rely=0.92)
 
