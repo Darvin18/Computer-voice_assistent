@@ -347,3 +347,6 @@ def vk_open():
 def open_commands():
     webbrowser.open('https://telegra.ph/Komandy-Golosovogo-assistenta-Computer-02-14')
 
+def space():
+    keyb.press('space')
+    keyb.release('space')

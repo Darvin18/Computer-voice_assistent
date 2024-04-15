@@ -162,6 +162,8 @@ def run():
                 func.click_wheel2()
             if text in config.commands:
                 func.open_commands()
+            if text in config.space_command:
+                func.space()
             if text:
                 pass
             func.picovoice_ready()
