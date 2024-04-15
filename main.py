@@ -160,6 +160,8 @@ def run():
                 func.vk_open()
             if text in config.wheel_click2:
                 func.click_wheel2()
+            if text in config.commands:
+                func.open_commands()
             if text:
                 pass
             func.picovoice_ready()

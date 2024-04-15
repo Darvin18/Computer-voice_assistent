@@ -279,6 +279,7 @@ def text_copy():
     keyb.release('ctrl + a')
     keyb.press('ctrl + c')
     keyb.release('ctrl + c')
+    mouse.click('left')
 
 def text_paste():
     keyb.press('ctrl + v')
@@ -342,4 +343,7 @@ def okru_open():
 
 def vk_open():
     webbrowser.open('https://vk.com')
+
+def open_commands():
+    webbrowser.open('https://telegra.ph/Komandy-Golosovogo-assistenta-Computer-02-14')
 
